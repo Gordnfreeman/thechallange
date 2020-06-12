@@ -11,7 +11,7 @@
       4 => 'four',
       5 => 'five',
     ];
-    foreach ($app as $key => $value) {
+    foreach ($arr as $key => $value) {
       echo "<h1>DING DONG $key is $value Super big</h1><br>";
     }
   ?>
