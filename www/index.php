@@ -10,7 +10,7 @@
       3 => 'three',
       4 => 'four',
       5 => 'five',
-      5 => 'six',
+      6 => 'six',
     ];
     foreach ($arr as $key => $value) {
       echo "<h1>DING DONG $key is $value Super big</h1><br>";
