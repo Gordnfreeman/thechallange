@@ -4,8 +4,14 @@
 </head>
 <body>
   <?php
-    $arr = [1,2,3,4,5];
-    foreach ($arr as $key => $value) {
+    $arr = [
+      1 => 'one',
+      2 => 'two',
+      3 => 'three',
+      4 => 'four',
+      5 => 'five',
+    ];
+    foreach ($variable as $key => $value) {
       echo "<h1>DING DONG $key is $value Super big</h1><br>";
     }
   ?>
